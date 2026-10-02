@@ -1,0 +1,44 @@
+[
+  {
+    "context": "Kangaroos are marsupials that are native to Australia. They are known for their powerful hind legs, strong tails, and distinctive hopping motion. There are several species of kangaroos, including the red kangaroo, eastern grey kangaroo, and western grey kangaroo. Kangaroos are herbivores and mainly eat grasses and other vegetation. They have a unique reproductive system where females have a pouch in which they carry and nurse their young, called joeys.",
+    "qas": [
+      {"question": "What do kangaroos eat?", "answer": "grasses and other vegetation"},
+      {"question": "Where are kangaroos native to?", "answer": "Australia"},
+      {"question": "What are young kangaroos called?", "answer": "joeys"},
+      {"question": "Which species of kangaroos are there?", "answer": "the red kangaroo, eastern grey kangaroo, and western grey kangaroo"},
+      {"question": "What kind of animals are kangaroos?", "answer": "marsupials"}
+    ]
+  },
+  {
+    "context": "Kangaroos are fascinating creatures with incredible adaptations. They have powerful hind legs that allow them to cover large distances with impressive leaps. Kangaroos are social animals and often form groups known as mobs. The red kangaroo, the largest marsupial, is known for its distinctive reddish-brown fur and can reach speeds of up to 56 kilometers per hour.",
+    "qas": [
+      {"question": "How fast can a red kangaroo run?", "answer": "up to 56 kilometers per hour"},
+      {"question": "What is a group of kangaroos called?", "answer": "mobs"},
+      {"question": "What is the largest marsupial?", "answer": "The red kangaroo"},
+      {"question": "What colour is the fur of a red kangaroo?", "answer": "reddish-brown"}
+    ]
+  },
+  {
+    "context": "The life cycle of a kangaroo is truly unique. Female kangaroos give birth to relatively undeveloped young, known as joeys. The tiny joeys, often no larger than a lima bean, continue their development in the mother's pouch. As they grow, joeys gradually spend more time outside the pouch but continue to nurse for an extended period.",
+    "qas": [
+      {"question": "How big is a newborn joey?", "answer": "no larger than a lima bean"},
+      {"question": "Where do joeys continue their development?", "answer": "in the mother's pouch"},
+      {"question": "How long do joeys nurse?", "answer": "for an extended period"}
+    ]
+  },
+  {
+    "context": "Kangaroos play a crucial role in the ecosystem by controlling vegetation through their grazing habits. Their unique digestive system allows them to efficiently extract nutrients from tough grasses. Kangaroos are also important culturally, often appearing in Aboriginal Australian stories and art as symbols of strength and adaptability.",
+    "qas": [
+      {"question": "What role do kangaroos play in the ecosystem?", "answer": "controlling vegetation through their grazing habits"},
+      {"question": "What do kangaroos symbolise in Aboriginal Australian art?", "answer": "strength and adaptability"},
+      {"question": "What does the kangaroo digestive system allow them to do?", "answer": "efficiently extract nutrients from tough grasses"}
+    ]
+  },
+  {
+    "context": "The conservation of kangaroos is of great importance. While they are iconic symbols of Australia, some species face threats such as habitat loss and conflicts with human activities. Conservation efforts focus on preserving their natural habitats and addressing challenges to ensure the continued survival of these unique marsupials.",
+    "qas": [
+      {"question": "What threats do kangaroos face?", "answer": "habitat loss and conflicts with human activities"},
+      {"question": "What do conservation efforts focus on?", "answer": "preserving their natural habitats"}
+    ]
+  }
+]

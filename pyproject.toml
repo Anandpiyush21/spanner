@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spanner"
+version = "0.2.0"
+description = "Fine-tune BERT for extractive question answering and ask questions about your own documents."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=2.0",
+    "transformers>=4.36",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "jupyter"]
+
+[project.scripts]
+spanner = "spanner.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
