@@ -148,6 +148,10 @@ On the bundled kangaroo set (17 questions over 5 passages):
 
 These numbers are measured on the training questions, so they show that the model fits the domain, not how well it generalises. To measure that, write a held-out file in the same format and pass it with `spanner eval --data`.
 
+## Report
+
+A short write-up of the method and results is in [`report/report.pdf`](report/report.pdf) (LaTeX source: [`report/report.tex`](report/report.tex)). To rebuild it, run `pdflatex report.tex` or `tectonic report.tex` inside `report/`.
+
 ## Project structure
 
 ```
@@ -157,6 +161,9 @@ These numbers are measured on the training questions, so they show that the mode
 │   └── kangaroo_qa.json      # question/answer training set
 ├── notebooks/
 │   └── walkthrough.ipynb     # end-to-end demo
+├── report/
+│   ├── report.tex            # LaTeX report
+│   └── report.pdf
 ├── src/spanner/
 │   ├── cli.py                # `spanner` command
 │   ├── data.py               # loading, sliding windows, span labels

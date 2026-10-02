@@ -12,3 +12,9 @@ venv/
 # Trained model weights
 models/
 fine_tuned_model/
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.synctex.gz
