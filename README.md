@@ -43,8 +43,8 @@ BERT reads the question and a window of the context together and predicts, for e
 Requires Python 3.9+.
 
 ```bash
-git clone https://github.com/Anandpiyush21/NLP_Project.git
-cd NLP_Project
+git clone https://github.com/Anandpiyush21/spanner.git
+cd spanner
 
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
